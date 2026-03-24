@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #ffe6f2, #e6f0ff, #fff0f5);
+  background: linear-gradient(135deg, #ffe6f2, #ffb3c6, #ff8fa3, #ff6b81);
   background-size: 300% 300%;
   animation: gradientShift 12s ease infinite;
   font-family: "Poppins", sans-serif;
