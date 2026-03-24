@@ -1,7 +1,7 @@
 body {
-  background: linear-gradient(135deg, #ffe6f2, #ffb3c6, #ff8fa3, #ff6b81);
-  background-size: 300% 300%;
-  animation: gradientShift 12s ease infinite;
+  background: linear-gradient(135deg, #ffe6f2, #ffb3c6, #ff8fa3, #ff6b81, #ff4d6d);
+  background-size: 500% 500%;
+  animation: gradientShift 14s ease infinite;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 20px;
@@ -10,7 +10,9 @@ body {
 
 @keyframes gradientShift {
   0% { background-position: 0% 50%; }
+  25% { background-position: 50% 50%; }
   50% { background-position: 100% 50%; }
+  75% { background-position: 50% 50%; }
   100% { background-position: 0% 50%; }
 }
 
