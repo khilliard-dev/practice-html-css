@@ -134,11 +134,14 @@ button:hover {
     text-align: center;
   }
 
-  .avatar {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto 20px;
-  }
+.avatar {
+  width: 100%;
+  max-width: 250px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
 
   .project-list {
     flex-direction: column;
