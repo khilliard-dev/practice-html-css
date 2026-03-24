@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(135deg, #ffe6f2, #e6f0ff, #fff0f5);
-  background-size: 400% 400%;
+  background-size: 300% 300%;
   animation: gradientShift 12s ease infinite;
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -42,9 +42,14 @@ header h1 {
   margin: 15px auto;
 }
 
-.about p {
+.about {
   text-align: center;
   line-height: 1.6;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
 }
 
 .journey h2 {
@@ -114,4 +119,40 @@ button:hover {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+  }
+
+  .project-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .project-card {
+    padding: 15px;
+  }
 }
